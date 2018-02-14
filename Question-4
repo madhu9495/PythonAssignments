@@ -1,0 +1,15 @@
+What is the output of the following code:
+
+counter=1
+def dolots(count):
+ global counter
+ for i in (1,2,3):
+   counter =count+i;
+
+print dolots(4) #prints None because function does not have any return type
+print counter   #Prints 7 because counter is global
+
+-------------------------------------------------------
+Output:
+None
+7
